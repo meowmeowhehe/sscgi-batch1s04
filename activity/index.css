@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Google Font */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  color: #ecab6a !important;
+
+  background-color: #0e0802;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  max-width: 960px;
+  margin: 0 auto;
+
+  gap: 4rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #080501;
+
+  margin-bottom: 4rem;
+}
+
+.navbar ul {
+  max-width: 960px;
+  margin: 0 auto;
+
+  list-style: none;
+
+  display: flex;
+  margin: 0;
+  padding: 10px 20px;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.navbar .nav-link a {
+  display: inline-block;
+  padding: 10px 15px;
+
+  font-size: 1.25rem;
+
+  color: #ecab6a;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav-link a:hover {
+  color: #765635;
+}
+
+.navbar .nav-link a:hover:first-child {
+  background-color: transparent;
+}
+
+/* Projects */
+#bio h1 {
+  margin-bottom: 1rem;
+
+  font-size: 2rem;
+}
+
+#bio p {
+  letter-spacing: 0.2rem;
+  font-size: 1.25rem;
+}
+
+/* Projects */
+#projects h1 {
+  margin-bottom: 1rem;
+
+  font-size: 2rem;
+}
+
+#projects .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2rem;
+}
+
+#projects .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #ecab6a;
+  border-radius: 0.5rem;
+
+  min-height: 175px;
+}
+
+#projects .card-img {
+  width: 100%;
+}
+
+#projects .card-img,
+#projects .year {
+  margin-bottom: 0.5rem;
+}
+
+#projects h2 {
+  margin-bottom: 0rem;
+}
+
+#projects h2,
+#projects p {
+  color: #0e0802;
+}
+
+/* Skills */
+#skills h1 {
+  margin-bottom: 1rem;
+
+  font-size: 2rem;
+}
+
+#skills .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2rem;
+}
+
+#skills .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #ecab6a;
+  border-radius: 0.5rem;
+}
+
+#skills h2 {
+  margin-bottom: 0.5rem;
+}
+
+#skills h2,
+#skills p {
+  color: #0e0802;
+}
+
+/* PreFooter */
+#prefooter {
+  margin-top: 4rem;
+  background-color: #080501;
+}
+
+.prefooter-container {
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #080501;
+
+  padding: 0.7 rem;
+}
+
+footer span {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
